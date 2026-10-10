@@ -1,1 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Mini Car Racing Game</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
 
+    <h1>MINI CAR RACING GAME</h1>
+
+    <div class="game">
+
+        <div class="score">
+            <h3>Score: 100</h3>
+            <h3>Speed: 80 km/h</h3>
+            <h3>Level: 1</h3>
+        </div>
+
+        <div class="road">
+
+            <div class="lines"></div>
+            <div class="lines line2"></div>
+            <div class="lines line3"></div>
+
+            <div class="enemy enemy1">
+                <div class="window"></div>
+            </div>
+
+            <div class="enemy enemy2">
+                <div class="window"></div>
+            </div>
+
+            <div class="enemy enemy3">
+                <div class="window"></div>
+            </div>
+
+            <div class="player">
+                <div class="window"></div>
+            </div>
+
+        </div>
+
+        <button class="start-btn"
+        onclick="document.querySelector('.road').classList.toggle('running')">
+            START RACE
+        </button>
+
+        <p>Use your imagination and enjoy the race!</p>
+
+    </div>
+
+</body>
+</html>
